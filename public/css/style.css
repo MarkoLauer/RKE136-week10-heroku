@@ -6,13 +6,23 @@
     box-sizing: border-box;
 }
 
+body {
+    
+    background: linear-gradient(rgb(191, 224, 137), rgba(62, 83, 29, 1));
+}
+
 html {
     font-family: 'Roboto', sans-serif;
     color: #151515;
 }
 .movie-card {
-    margin-top: 5rem;
+    margin-top: 2rem;
     height: 800px;
+    text-align: center;
+}
+
+.form-container {
+    margin-top: 2rem;
     text-align: center;
 }
 

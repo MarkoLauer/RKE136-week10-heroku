@@ -22,6 +22,13 @@
 
     <div class="container">
 
+        <div class="form-container">
+            <form action="/search" method="POST">
+                <input type="text" name="movieTitle" placeholder="Enter movie title">
+                <button type="submit">search</button>
+            </form>
+        </div>
+
         <div class="movie-card">
             <h2 class="movie-title"><%= dataToRender.title %></h2>
             <p class="movie-genres">
